@@ -1,0 +1,10 @@
+<p>{{$ctrl.question.text}}</p>
+<ul>
+	<li ng-repeat="(key, answer) in $ctrl.question.answers">
+		<label>
+			<input type="radio" ng-model="$ctrl.question.name" ng-value="answer" ng-click="$ctrl.addAnswer(key)">
+			{{answer}}
+		</label>
+	</li>
+</ul>{{$ctrl.count}}
+<a href="/#!/quiz/{{$ctrl.next}}">Следующий</a>

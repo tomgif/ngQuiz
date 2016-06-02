@@ -1,0 +1,5 @@
+{
+	"name": "question",
+	"text": "Какое слово означает танец?",
+	"answers": ["Степ", "Lorem", "Ipsum", "Dolor"]
+}
